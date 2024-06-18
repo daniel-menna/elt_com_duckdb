@@ -1,0 +1,30 @@
+[0m17:33:49.369471 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6CE5BC8C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6CD90A600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6CAD239B0>]}
+
+
+============================== 17:33:49.380065 | 2e830c22-72e1-4de5-8fe5-40c5cd08e121 ==============================
+[0m17:33:49.380065 [info ] [MainThread]: Running with dbt=1.8.2
+[0m17:33:49.382247 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\danie\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:33:49.450565 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/danie/.dbt')}
+[0m17:33:49.451510 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m17:34:14.596405 [debug] [MainThread]: Starter project path: C:\Users\danie\workspaces\elt_duckdb\elt_com_duckdb\.venv\Lib\site-packages\dbt\include\starter_project
+[0m17:34:14.646578 [info ] [MainThread]: 
+Your new dbt project "DATAWAREHOUSE" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:34:14.654237 [info ] [MainThread]: Setting up your profile.
+[0m17:34:54.054381 [info ] [MainThread]: Profile DATAWAREHOUSE written to C:\Users\danie\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:34:54.056453 [debug] [MainThread]: Command `dbt init` succeeded at 17:34:54.056453 after 64.95 seconds
+[0m17:34:54.057968 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6CE2011C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6CE5F12B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A6CE4F9A00>]}
+[0m17:34:54.059004 [debug] [MainThread]: Flushing usage events
