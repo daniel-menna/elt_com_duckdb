@@ -1,4 +1,4 @@
-DATAWAREHOUSE:
+dw:
   target: dev
   outputs:
     dev:
@@ -11,3 +11,4 @@ DATAWAREHOUSE:
       schema: "{{ env_var('DB_SCHEMA_PROD') }}"
       threads: "{{ env_var('DB_THREADS_PROD') | int }}"
       keepalives_idle: 0
+
