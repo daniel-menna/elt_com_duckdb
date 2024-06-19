@@ -6,7 +6,7 @@ with commodities as (
         simbolo,
         valor_fechamento
     from 
-        {{ ref ('stg_commodities') }}
+        {{ ref('stg_commodities') }}
 ),
 
 movimentacao as (
@@ -16,7 +16,7 @@ movimentacao as (
         acao,
         quantidade
     from 
-        {{ ref ('stg_movimentacao_commodities') }}
+        {{ ref('stg_movimentacao_commodities') }}
 ),
 
 joined as (
